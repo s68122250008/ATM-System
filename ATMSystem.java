@@ -1,4 +1,4 @@
-// ก. สร้าง Custom Exception ชื่อ MyTestException
+
 class MyTestException extends RuntimeException {
     private int errorCode;
 
