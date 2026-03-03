@@ -12,7 +12,7 @@ class MyTestException extends RuntimeException {
     }
 }
 
-public class BankSystem {
+public class ATMSystem {
 
     public static void withdraw(double balance, double amount) {
         if (amount > balance) {
